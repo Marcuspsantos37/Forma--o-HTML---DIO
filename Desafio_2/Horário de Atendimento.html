@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário Atendimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-color: chartreuse;
+        padding: 1rem;
+        margin: none;
+    }
+    
+    #menu ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    #menu a{
+        text-decoration: none;
+        }
+
+    #menu a:hover{
+        background-color: darkgreen;
+        border: 5rem;
+        color: #fff;
+    }
+    table{
+        display: table;
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid;
+        margin-top: 4rem;
+        margin-left: 35%;
+    }
+    table thead{
+        background-color: greenyellow;
+    }
+
+    table tr{
+        
+    }
+
+    table td{
+        width: 8rem;
+        text-align: center;
+        
+    }
+</style>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <a href="index.html"><li>Página Principal</li></a>
+                <a href="sobre.html"><li>Sobre a clínica</li></a>
+                <a href="Horário de Atendimento.html"><li>Horário de Atendimento</li></a>
+                <a href="contato.html"><li>Contato</li></a>
+                <link rel="stylesheet" href="style.css">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <td>Serviços</td>
+                    <td>Segunda a Sexta</td>
+                    <td>Sábados</td>
+                    <td>Feriados</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Clínica geral</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h
+                    </td>
+                </tr>
+                <tr>
+                    <td>Psicologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Pediatria</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Oftalmologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot></tfoot>
+        </table>
+
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

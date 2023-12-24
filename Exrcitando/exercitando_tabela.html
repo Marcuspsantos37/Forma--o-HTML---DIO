@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando Tabelas</title>
+</head>
+<style>
+   table {
+        border: solid 1px black;    
+        text-align: center;
+    }
+    table th{
+        border: solid;
+        background-color: black;
+        color: white;        
+    }
+    table tr:nth-child(even) td{
+        background-color: silver;
+    }
+
+
+</style>
+<body>
+
+    <table  width="250" align="center">
+        <thead>
+            <tr>
+                <th cellpacing="0" >Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marcus</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Lorena</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Iago</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Bianca</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>42</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
